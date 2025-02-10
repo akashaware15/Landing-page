@@ -62,7 +62,7 @@
     width: 26rem;
     background-color: #caced226;
     margin-left: 6rem;
-    background-image: url("hero.jpg");
+    background-image: url("Images/hero.jpg");
     background-size: cover;
     border-radius: 10px;
     box-shadow:
@@ -111,7 +111,7 @@
     width: 8.5rem;
     border: 3px solid rgba(69, 69, 174, 0.538);
     border-radius: 5px;
-    background-image: url("1.png");
+    background-image: url("Images/1.png");
     background-size: cover;
 }
 
@@ -121,7 +121,7 @@
     width: 8.5rem;
     border: 3px solid rgba(69, 69, 174, 0.538);
     border-radius: 5px;
-    background-image: url("2.png");
+    background-image: url("Images/2.png");
     background-size: cover;
 }
 
@@ -131,7 +131,7 @@
     width: 8.5rem;
     border: 3px solid rgba(69, 69, 174, 0.538);
     border-radius: 5px;
-    background-image: url("3.png");
+    background-image: url("Images/3.png");
     background-size: cover;
 }
 
@@ -141,7 +141,7 @@
     width: 8.5rem;
     border: 3px solid rgba(69, 69, 174, 0.538);
     border-radius: 5px;
-    background-image: url("4.png");
+    background-image: url("Images/4.png");
     background-size: cover;
 }
 
