@@ -2,45 +2,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-
+/********************************** Header **********************************/
 .header {
     display: flex;
     background-color: #1F2937;
     color: white;
     height: 3rem;
     width: 100%;
-    gap: 25%;
-   
+    gap: 42%;
+
 }
 
 .logo {
     display: flex;
-    flex-direction: column;     
+    flex-direction: column;
     justify-content: center;
+    margin-left: 3rem;
     font-size: 24px;
-    margin-left: 6rem;
+    cursor: pointer;
 }
 
 .header-a {
     display: flex;
-    justify-content: center;    
+    justify-content: flex-end;
     align-items: center;
-    font-size: 18px;
-    color: #E5E7EB;
     width: 50rem;
-    margin-right: 6rem;
+    margin-right: 3rem;
     gap: 10%;
+    cursor: pointer;
 }
 
+/********************************** Hero-Section **********************************/
 
 .hero-section {
     height: 25rem;
     width: 100%;
     background-color: #1F2937;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     align-items: center;
 }
 
@@ -58,6 +60,146 @@
 .hero-img {
     height: 12rem;
     width: 25rem;
-    background-color: #caced27c;
+    background-color: #caced226;
     margin-left: 6rem;
+}
+
+.hero-section button {
+    background-color: #3882F6;
+    border: none;
+    width: 6.5rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/********************************** Box1 **********************************/
+
+.box-container {
+    height: 20rem;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.box-container h1 {
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+.all-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 5%;
+}
+
+
+.box {
+    background-color: rgb(255, 255, 255);
+    height: 9rem;
+    width: 8.5rem;
+    border: 3px solid rgba(69, 69, 174, 0.538);
+    border-radius: 5px;
+}
+
+/********************************** quote-section **********************************/
+
+.quote-section {
+    height: 20rem;
+    width: auto;
+    background-color: #E5E7EB;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #1F2937;
+}
+
+.quote-section span{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.contact-container {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    height: 7rem;
+    width:60rem;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.contact button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    width: 7rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left:8rem; 
+}
+
+
+/********************************** footer-section **********************************/
+
+
+.foot-logo{
+    background-color: #1F2937;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgb(255, 255, 255);
+   height: 30px;
+   padding-top: 2rem;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+
+.foot-panel1 {
+    background-color: #1F2937;
+    height: 10rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+}
+
+li {
+    /* font-weight: 100; */
+}
+
+.copyright {
+    height: 5rem;
+    width: auto;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+   align-items: center;
+   justify-content: center;
 }
