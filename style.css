@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
+
 .header {
     display: flex;
     background-color: #1F2937;
     color: white;
     height: 3rem;
     width: 100%;
-    gap: 40%;
+    gap: 25%;
    
 }
 
@@ -30,7 +31,7 @@
     color: #E5E7EB;
     width: 50rem;
     margin-right: 6rem;
-    gap: 20%;
+    gap: 10%;
 }
 
 
